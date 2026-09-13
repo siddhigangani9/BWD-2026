@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    border: 10px solid black;
+    height: 90vh;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    font-size: x-large;
+    text-align: center;
+    border-radius: 14px;
+    color: aliceblue;
+}
+
+#box1 {
+    order: 1;
+    background-color: hsla(322, 100%, 50%, 0.301);
+}
+
+#box2 {
+    background-color: hsla(130, 100%, 50%, 0.301);
+}
+
+#box3 {
+    background-color: hsla(255, 100%, 50%, 0.301);
+}
+
+#box4 {
+    background-color: hsla(354, 100%, 50%, 0.301);
+}
